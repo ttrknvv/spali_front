@@ -1,0 +1,46 @@
+{
+  "title": "Каталог",
+  "form": {
+    "title": "Создание",
+    "titleEdit": "Редактирование",
+    "categoryTitle": "Категория",
+    "subCategoryTitle": "Подкатегория",
+    "topicTitle": "Тема",
+    "categoryLabel": "Наименование категории",
+    "newName": "Новое наименование",
+    "newDescription": "Новое описание",
+    "categoryPlaceholder": "Введите наименование категории",
+    "subCategoryLabel": "Наименование подкатегории",
+    "subCategoryPlaceholder": "Введите наименование подкатегории",
+    "topicLabel": "Наименование темы",
+    "isOnlySubCatLabel": "Включать только подкатегории",
+    "topicPlaceholder": "Введите наименование темы",
+    "descriptionLabel": "Описание",
+    "descriptionPlaceholder": "Введите описание",
+    "add": "Добавить",
+    "edit": "Изменить",
+    "fileLabel": "Изображение темы"
+  },
+  "notification": {
+    "success": {
+      "titleCreate": "Успешно создано",
+      "titleEdit": "Успешно изменено",
+      "categoryCreate": "Категория была успешно создана",
+      "categoryEdit": "Категория была успешно изменена",
+      "subCategoryCreate": "Подкатегория была успешно создана",
+      "subCategoryEdit": "Подкатегория была успешно изменена",
+      "topicCreate": "Тема подкатегории была успешно создана",
+      "topicEdit": "Тема подкатегории была успешно изменена"
+    },
+    "error": {
+      "titleCreate": "Ошибка создания",
+      "titleEdit": "Ошибка изменения",
+      "categoryCreate": "Категория с таким названием уже существует",
+      "categoryEdit": "Категория с таким названием уже существует",
+      "subCategoryCreate": "Подкатегория с таким названием уже существует",
+      "subCategoryEdit": "Подкатегория с таким названием уже существует",
+      "topicCreate": "Тема подкатегории с таким названием уже существует",
+      "topicEdit": "Тема подкатегории с таким названием уже существует"
+    }
+  }
+}

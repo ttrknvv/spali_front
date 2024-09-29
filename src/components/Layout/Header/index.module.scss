@@ -1,0 +1,106 @@
+@import 'styles/scss/palette.module.scss';
+
+.header {
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $black-1;
+  color: $white-1;
+  font-size: 24px;
+  padding: 0 80px;
+
+  .headerContent {
+    flex: 1;
+    width: 100%;
+    display: flex;
+
+    @media print {
+      display: none;
+    }
+
+    .logoMain {
+      cursor: pointer;
+      svg {
+        height: 60px;
+        width: 140px;
+        font-size: 100px;
+      }
+    }
+
+    .menuItems {
+      margin-left: 80px;
+
+      .itemHeader {
+        span {
+          transition: color 0.9s ease;
+        }
+      }
+      .itemHeader:hover {
+        span {
+          transition: color 0.9s ease;
+          color: $blue-2;
+        }
+      }
+
+      .activeItemHeader {
+        border-radius: 0;
+        border-bottom: 2px solid $white-1;
+      }
+    }
+
+    .customInputHeader {
+      background-color: $transparent;
+      border: 3px solid $white-1;
+      border-radius: 10px;
+      width: 20vw;
+      height: 50px;
+      color: $white-1;
+
+      input::placeholder {
+        color: $white-1;
+        font-size: 16px;
+      }
+
+      svg {
+        color: $white-1;
+      }
+    }
+
+    .customSelectHeader {
+      border-radius: 10px;
+      width: 90px;
+      height: 50px;
+      span {
+        color: $white-1;
+      }
+      :global(.ant-select) {
+        border-radius: 10px;
+      }
+      &:global(.ant-select-outlined:not(.ant-select-focused):not(.ant-select-status-error) .ant-select-selector) {
+        border: 3px solid $white-1;
+      }
+      &:global(.ant-select-focused.ant-select-outlined:not(.ant-select-disabled) .ant-select-selector) {
+        border: 3px solid $white-1;
+        box-shadow: none !important;
+      }
+    }
+
+    .avatar {
+      cursor: pointer;
+    }
+  }
+}
+
+.customDropdown {
+  background-color: $black-1;
+  border: 3px solid $white-1;
+  color: $white-1;
+
+  :global(.ant-select-item-option-content) {
+    color: $white-1;
+  }
+}

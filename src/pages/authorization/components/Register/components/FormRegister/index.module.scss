@@ -1,0 +1,15 @@
+@import 'styles/scss/palette.module.scss';
+
+.exclamationPoint {
+  color: $blue-1;
+  font-size: 24px;
+}
+
+.header {
+  font-size: 18px;
+}
+
+.button {
+  font-size: 14px;
+  padding: 2px 20px;
+}

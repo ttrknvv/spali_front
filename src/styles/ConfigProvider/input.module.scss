@@ -1,0 +1,11 @@
+@import 'styles/scss/palette.module.scss';
+
+.root {
+  &:hover {
+    box-shadow: 0 0 10px 2px $black-2;
+  }
+
+  &:focus {
+    box-shadow: 0 0 8px 2px $blue-3;
+  }
+}

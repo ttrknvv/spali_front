@@ -1,0 +1,52 @@
+@import 'styles/scss/palette.module.scss';
+
+.header {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px 20px;
+  height: 40px;
+}
+
+.loadingContainer {
+  min-height: 60vh;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.actionButton {
+  border: none;
+  width: max-content !important;
+  height: max-content !important;
+  &:hover {
+    background-color: $transparent !important;
+    svg {
+      path {
+        transition: fill 0.9s ease;
+        fill: $blue-2 !important;
+      }
+    }
+  }
+
+  svg {
+    font-size: 24px;
+    path {
+      transition: fill 0.9s ease;
+      color: $black-1;
+    }
+  }
+
+  .editIcon {
+    svg {
+      font-size: 28px;
+      path {
+        transition: fill 0.9s ease;
+      }
+    }
+  }
+}

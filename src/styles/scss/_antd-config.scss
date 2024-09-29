@@ -1,0 +1,8 @@
+@import './palette.module.scss';
+
+html {
+  :global(.ant-select-dropdown) {
+    background-color: green !important;
+    border: 2px solid yellow;
+  }
+}

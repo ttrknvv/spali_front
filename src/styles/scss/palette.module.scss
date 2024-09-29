@@ -1,0 +1,25 @@
+$white-1: #ffffff;
+
+$black-1: #000000;
+$black-2: rgba(0, 0, 0, 0.4);
+
+$blue-1: #0000bd;
+$blue-2: #5050ff;
+$blue-3: rgba(0, 0, 189, 0.3);
+
+$red-1: #eb3c3c;
+
+$primary-color: $black-1;
+$disable-color: #d9d9d9;
+
+$transparent: transparent;
+$test: green;
+
+:export {
+  primary-color: $primary-color;
+  transparent: $transparent;
+  test: $test;
+  white: $white-1;
+  black: $black-1;
+  blue: $blue-1;
+}

@@ -1,0 +1,36 @@
+ul[class],
+ol[class],
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+//убрать обводку в браузерах
+button,
+button:active,
+button:focus {
+  outline: none;
+}

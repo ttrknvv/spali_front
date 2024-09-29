@@ -1,0 +1,42 @@
+{
+  "spinner": {
+    "textSpin": "Загрузка"
+  },
+  "header": {
+    "catalog": "Каталог",
+    "myEducatuion": "Маё навучанне",
+    "findPlaceholder": "Пошук"
+  },
+  "validationMessages": {
+    "required": "Абавязковае поле",
+    "email": "Некарэктны фармат адраса электроннай пошты",
+    "minlenght": "Мінімальная колькасць сімвалаў {{count}}",
+    "maxlenght": "Максімальная колькасць сімвалаў {{count}}",
+    "capitalPassword": "Пароль павінен утрымоўваць хаця б адну загалоўную літару",
+    "lowercasePassword": "Пароль павінен утрымоўваць хаця б адну маленькую літару",
+    "numberPassword": "Пароль павінен утрымоўваць хаця б адну лічбу",
+    "unableFormat": "Няправільны фармат радка"
+  },
+  "select": {
+    "label": {
+      "category": "Катэгорыя",
+      "subCategory": "Падкатэгорыя"
+    },
+    "placeholder": {
+      "category": "Абярыце катэгорыю",
+      "subCategory": "Абярыце падкатэгорыю"
+    }
+  },
+  "filterCourses": {
+    "difficulty": "Узровень складанасці",
+    "language": "Мова",
+    "typeEdu": "Тып навучання"
+  },
+  "dropdown": {
+    "profile": "Профіль",
+    "logout": "Выйсці",
+    "login": "Уваход",
+    "register": "Рэгістрацыя",
+    "or": "або"
+  }
+}

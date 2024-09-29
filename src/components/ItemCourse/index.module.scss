@@ -1,0 +1,29 @@
+.root {
+  .imgCourse {
+    cursor: pointer;
+    img {
+      width: 160px;
+      height: 160px;
+    }
+  }
+
+  .title {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .author {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-top: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

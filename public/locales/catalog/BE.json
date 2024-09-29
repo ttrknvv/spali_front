@@ -1,0 +1,34 @@
+{
+  "title": "Каталог",
+  "form": {
+    "buttonText": "Дадаць",
+    "title": "Стварэнне",
+    "categoryTitle": "Катэгорыя",
+    "subCategoryTitle": "Падкатэгорыя",
+    "topicTitle": "Тэма",
+    "categoryLabel": "Назва катэгорыі",
+    "categoryPlaceholder": "Увядзіце назву катэгорыі",
+    "subCategoryLabel": "Назва падкатэгорыі",
+    "subCategoryPlaceholder": "Увядзіце назву падкатэгорыі",
+    "topicLabel": "Назва тэмы",
+    "isOnlySubCatLabel": "Уключаць толькі падкатэгорыі",
+    "topicPlaceholder": "Увядзіце найменне тэмы",
+    "descriptionLabel": "Апісанне",
+    "descriptionPlaceholder": "Увядзіце апісанне",
+    "add": "Дадаць"
+  },
+  "notification": {
+    "success": {
+      "titleCreate": "Паспяхова створана",
+      "categoryCreate": "Катэгорыя была паспяхова створана",
+      "subCategoryCreate": "Падкатэгорыя была паспяхова створана",
+      "topicCreate": "Тэма падкатэгорыі была паспяхова створана"
+    },
+    "error": {
+      "titleCreate": "Памылка стварэння",
+      "categoryCreate": "Катэгорыя з такой назвай ужо існуе",
+      "subCategoryCreate": "Падкатэгорыя з такой назвай ужо існуе",
+      "topicCreate": "Тэма падкатэгорыі з такой назвай ужо існуе"
+    }
+  }
+}

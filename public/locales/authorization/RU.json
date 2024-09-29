@@ -1,0 +1,26 @@
+{
+  "login": "Вход",
+  "register": "Регистрация",
+  "inputSocial": "Или войдите через соц. сети",
+  "errorRegister": "Аккаунт с таким E-mail уже существует",
+  "errorLogin": "Неверный E-mail или пароль",
+  "form": {
+    "gmail": "E-mail",
+    "password": "Пароль",
+    "input": "Войти",
+    "register": "Зарегистрироваться",
+    "fullName": "Фамилия и имя",
+    "placeholder": {
+      "gmail": "Введите E-mail",
+      "password": "Введите пароль",
+      "fullName": "Введите фамилию и имя"
+    }
+  },
+  "modal": {
+    "titleActivateRegister": "Подтверждение регистрации",
+    "titleActivateLogin": "Подтверждение авторизации",
+    "descriptionActivateRegister": "Чтобы завершить регистрацию, пожалуйста, перейдите по ссылке, отправленной на вашу электронную почту",
+    "descriptionActivateLogin": "Чтобы завершить авторизацию, пожалуйста, перейдите по ссылке, отправленной на вашу электронную почту",
+    "titleButton": "Понятно"
+  }
+}

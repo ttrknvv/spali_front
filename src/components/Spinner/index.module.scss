@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+
+  .contentStyle {
+    padding: 50px;
+    border-radius: 4px;
+  }
+}

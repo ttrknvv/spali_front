@@ -1,0 +1,10 @@
+@import 'styles/scss/palette.module.scss';
+
+.asterisk {
+  color: $red-1;
+  font-size: 16px;
+  padding-left: 1px;
+  position: relative;
+  top: -2px;
+  right: 0px;
+}

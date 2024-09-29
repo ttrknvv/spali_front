@@ -1,0 +1,26 @@
+{
+  "login": "Уваход",
+  "register": "Рэгістрацыя",
+  "inputSocial": "Або ўвайдзіце праз сац. сеткі",
+  "errorRegister": "Акаўнт з такім E-mail ужо існуе",
+  "errorLogin": "Няслушны E-mail або пароль",
+  "form": {
+    "gmail": "E-mail",
+    "password": "Пароль",
+    "input": "Увайсці",
+    "register": "Зарэгістравацца",
+    "fullName": "Прозвішча і імя",
+    "placeholder": {
+      "gmail": "Увядзіце E-mail",
+      "password": "Увядзіце пароль",
+      "fullName": "Увядзіце прозвішча і імя"
+    }
+  },
+  "modal": {
+    "titleActivateRegister": "Пацвярджэнне рэгістрацыі",
+    "titleActivateLogin": "Пацвярджэнне аўтарызацыі",
+    "descriptionActivateRegister": "Каб завяршыць рэгістрацыю, калі ласка, перайдзіце па спасылцы, адпраўленай на вашу электронную пошту",
+    "descriptionActivateLogin": "Каб завяршыць аўтарызацыю, калі ласка, перайдзіце па спасылцы, адпраўленай на вашу электронную пошту",
+    "titleButton": "Зразумела"
+  }
+}

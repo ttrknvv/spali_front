@@ -1,0 +1,9 @@
+.root {
+  width: max-content;
+  :global(.ant-form-item-row) {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

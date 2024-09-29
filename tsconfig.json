@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "module": "esnext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "enums/*": ["src/enums/*"],
+      "pages/*": ["src/pages/*"],
+      "schemes/*": ["src/schemes/*"],
+      "constants/*": ["src/constants/*"],
+      "utils/*": ["src/utils/*"],
+      "styles/*": ["src/styles/*"],
+      "models/*": ["src/models/*"],
+      "assets/*": ["src/assets/*"],
+      "services/*": ["src/services/*"],
+      "http/*": ["src/http/*"],
+      "reduxApp/*": ["src/reduxApp/*"],
+      "hooks/*": ["src/hooks/*"],
+      "routes/*": ["src/routes/*"],
+      "contexts/*": ["src/contexts/*"],
+      "api/*": ["src/api/*"]
+    },
+    "types": ["vite-plugin-svgr/client"]
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,22 @@
+@import 'styles/scss/palette.module.scss';
+
+.root {
+  padding: 20px;
+  border: 3px solid $white-1;
+  border-radius: 10px;
+  background-color: $black-1;
+  box-shadow: 0 0 10px 2px $black-2;
+  color: $white-1;
+
+  .item {
+    span {
+      transition: color 0.9s ease;
+    }
+  }
+  .item:hover {
+    span {
+      transition: color 0.9s ease;
+      color: $blue-2;
+    }
+  }
+}

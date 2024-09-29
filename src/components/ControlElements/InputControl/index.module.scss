@@ -1,0 +1,92 @@
+@import 'styles/scss/palette.module.scss';
+
+.root {
+  :global(.ant-input-outlined.ant-input-status-error.ant-input-disabled) {
+    border: 2px solid $disable-color;
+  }
+  &:global(.ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label) {
+    padding-bottom: 0;
+    margin-bottom: -1px;
+  }
+
+  & :global(.ant-form-item-explain-error) {
+    color: $red-1;
+    font-size: 12px;
+  }
+
+  &:global(.ant-form-item .ant-form-item-label > label) {
+    font-size: 16px;
+    height: 100%;
+  }
+
+  &:global(.ant-form-item) {
+    margin: 0 !important;
+  }
+}
+
+.passwordInput {
+  border: 2px solid $black-1;
+  height: 50px;
+
+  &:global(.ant-input-affix-wrapper-focused) {
+    box-shadow: 0 0 8px 2px $blue-3;
+  }
+
+  &:focus {
+    :global(.ant-input) {
+      width: 20px;
+      background-color: yellow !important;
+    }
+  }
+
+  & input[placeholder] {
+    font-size: 14px;
+  }
+}
+
+.formItemWrapper {
+  :global(.ant-form-item-explain-error) {
+    color: $red-1;
+    font-size: 12px;
+  }
+}
+
+.input {
+  position: relative;
+  border: 2px solid $black-1;
+  height: 50px;
+
+  &[placeholder] {
+    font-size: 14px;
+  }
+
+  :global(.ant-input-show-count-suffix) {
+    top: 44px;
+    right: 0px;
+    position: absolute;
+  }
+}
+
+.inputArea {
+  position: relative;
+  border: 2px solid $black-1;
+
+  &[placeholder] {
+    font-size: 14px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 10px 2px $black-2;
+  }
+}
+
+.labelDisabled {
+  & :global(.ant-form-item-label) label {
+    color: $disable-color;
+  }
+}
+
+.hint {
+  color: $black-1;
+  font-size: 12px;
+}

@@ -1,0 +1,49 @@
+@import 'styles/scss/palette.module.scss';
+
+.root {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  .margin {
+    margin-top: 30px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $blue-2;
+      border-radius: 10px;
+      font-size: 20px;
+      line-height: 1;
+      transition: background-color 0.2s ease-in-out;
+      padding: 4vh 0;
+      width: 16vw;
+
+      .icon {
+        font-size: 30px;
+        margin-right: 8px;
+      }
+
+      .text {
+        color: $white-1;
+        padding: 7px 0;
+        white-space: nowrap;
+      }
+
+      &:hover {
+        box-shadow: 0px 1px 5px $blue-1;
+      }
+    }
+
+    .active a {
+      background-color: black;
+      outline: 1px solid yellow;
+    }
+  }
+}

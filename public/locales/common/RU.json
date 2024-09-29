@@ -1,0 +1,62 @@
+{
+  "spinner": {
+    "textSpin": "Загрузка"
+  },
+  "header": {
+    "catalog": "Каталог",
+    "myEducatuion": "Мое обучение",
+    "findPlaceholder": "Поиск"
+  },
+  "validationMessages": {
+    "required": "Обязательное поле",
+    "email": "Некорректный формат адреса электронной почты",
+    "minlenght": "Минимальное количество символов {{count}}",
+    "maxlenght": "Максимальное количество символов {{count}}",
+    "capitalPassword": "Пароль должен содержать хотя бы одну заглавную букву",
+    "lowercasePassword": "Пароль должен содержать хотя бы одну строчную букву",
+    "numberPassword": "Пароль должен содержать хотя бы одну цифру",
+    "unableFormat": "Неправильный формат строки"
+  },
+  "select": {
+    "label": {
+      "category": "Категория",
+      "subCategory": "Подкатегория",
+      "topic": "Тема"
+    },
+    "placeholder": {
+      "category": "Выберите категорию",
+      "subCategory": "Выберите подкатегорию",
+      "topic": "Выберите тему"
+    }
+  },
+  "formController": {
+    "label": {
+      "fileUploader": "Файл"
+    }
+  },
+  "filterCourses": {
+    "difficulty": "Уровень сложности",
+    "language": "Язык",
+    "typeEdu": "Тип обучения"
+  },
+  "dropdown": {
+    "profile": "Профиль",
+    "logout": "Выйти",
+    "login": "Вход",
+    "register": "Регистрация",
+    "or": "или"
+  },
+  "difficultyLevels": {
+    "start": "Начальный",
+    "medium": "Продвинутый",
+    "professional": "Профессиональный"
+  },
+  "languages": {
+    "ru": "Русский",
+    "en": "Английский"
+  },
+  "typeEdu": {
+    "course": "Курс",
+    "courseKit": "Программа"
+  }
+}

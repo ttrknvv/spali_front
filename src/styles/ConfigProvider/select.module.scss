@@ -1,0 +1,11 @@
+@import 'styles/scss/palette.module.scss';
+
+.root {
+  &:hover {
+    box-shadow: 0 0 10px 2px $black-2;
+  }
+
+  &:global(.ant-select-focused.ant-select-open) {
+    box-shadow: 0 0 8px 2px $blue-3 !important;
+  }
+}

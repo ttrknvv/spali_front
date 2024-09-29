@@ -1,0 +1,60 @@
+@import 'styles/scss/palette.module.scss';
+
+.labelDisabled {
+  label {
+    b {
+      color: $disable-color;
+    }
+  }
+}
+
+.root {
+  margin: 0;
+
+  :global(.ant-select-disabled) {
+    :global(.ant-select-selector) {
+      border: 2px solid $disable-color !important;
+    }
+    :global(.ant-select-selection-placeholder) {
+      color: $disable-color;
+    }
+    :global(.ant-select-arrow) {
+      svg {
+        color: $disable-color;
+      }
+    }
+  }
+
+  &:global(.ant-form-item:not(.ant-form-item-horizontal) .ant-form-item-label) {
+    padding-bottom: 0;
+  }
+
+  & :global(.ant-form-item-explain-error) {
+    font-size: 12px;
+  }
+
+  &:global(.ant-form-item .ant-form-item-label > label) {
+    height: 100%;
+    font-size: 16px;
+  }
+
+  .select {
+    border-radius: 10px;
+    width: 320px;
+    height: 50px;
+    span {
+      color: $black-1;
+    }
+    :global(.ant-select) {
+      border: 2px solid $black-1 !important;
+      border-radius: 10px;
+    }
+    &:global(.ant-select-outlined:not(.ant-select-focused):not(.ant-select-status-error) .ant-select-selector) {
+      border: 2px solid $black-1;
+    }
+    &:global(.ant-select-focused.ant-select-outlined:not(.ant-select-disabled) .ant-select-selector) {
+      border: 2px solid $black-1;
+      box-shadow: none !important;
+    }
+  }
+}

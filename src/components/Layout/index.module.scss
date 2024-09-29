@@ -1,0 +1,12 @@
+@import 'styles/scss/palette.module.scss';
+
+.wrapper {
+  min-height: 100vh;
+  background-color: $white-1;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+  }
+}
